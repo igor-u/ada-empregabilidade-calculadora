@@ -15,3 +15,88 @@ html {
     background-color: var(--preto);
     font-family: var(--fonte-principal);
 }
+
+.calculadora {
+    margin: 2em auto auto auto;
+    width: 20em;
+    background-color: var(--cinza);
+    border-radius: 1em;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1em 0;
+    height: 4em;
+    border: none;
+    background-color: var(--cinza);
+    border-radius: 1em;
+}
+
+.input {
+    border: none;
+    height: 100%;
+    width: 18em;
+    background-color: var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    overflow: hidden;
+    border-radius: inherit;
+    margin: 0.5em;
+}
+
+.resultado {
+    font-size: 2em;
+    color: var(--verde);
+    padding: 0 0.5em;
+}
+
+.botoes {
+    margin: 0 1em 0 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.footer {
+    width: 100%;
+    height: 1em;
+    border: none;
+    background-color: var(--cinza);
+    border-radius: 1em;
+}
+
+button {
+    height: 2.5em;
+    border: none;
+    border-radius: 1em;
+    font-size: 1em;
+    cursor: pointer;
+    color: var(--branco);
+    background-color: var(--azul);
+}
+
+button:hover {
+    background-color: var(--azul-escuro);
+}
+
+button:active {
+    background-color: var(--azul-escuro);
+    border: 0.1em solid var(--branco);
+}
+
+#equal {
+    background-color: var(--verde);
+}
+
+#equal:hover {
+    background-color: var(--verde-escuro);
+}
+
+#equal:active {
+    background-color: var(--verde-escuro);
+    border: 0.1em solid var(--branco);
+}
