@@ -24,7 +24,5 @@ Tecnologias Utilizadas:
   ```
   git clone git@github.com:igor-u/ada-empregabilidade-calculadora.git
   ```
-2. Abra o arquivo HTML: Abra o arquivo index.html em seu navegador web.
-
-![image](https://github.com/user-attachments/assets/5321defd-4ea2-4924-89d6-26ec93f822cf)
-
+2. Abra o arquivo index.html em seu navegador web.
+![image](https://github.com/user-attachments/assets/f66092e3-d6ea-445b-9167-f5308eff79c1)
