@@ -7,7 +7,7 @@ botoes.forEach(botao => {
     botao.addEventListener('click', () => {
         const value = botao.textContent;
 
-        if (value === 'CE') {
+        if (value === 'C') {
             expressao = '';
             display.textContent = '0';
         }
